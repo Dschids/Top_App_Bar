@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Top App Bar</string>
+    <string name="action_run">Run</string>
+    <string name="action_naptime">Naptime</string>
+    <string name="action_search">Search for stuff, JK</string>
+    <string name="share">Stuff</string>
+    <string name="running">Run, Run, Run Run, Ruun</string>
+    <string name="naptime">Naptime...ZZZzzzz</string>
+</resources>

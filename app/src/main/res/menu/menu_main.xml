@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", must appear as action button if possible. -->
+    <item
+        android:id="@+id/action_run"
+        android:icon="@drawable/run_24"
+        android:title="@string/action_run"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, must always be in the overflow. -->
+    <item android:id="@+id/action_naptime"
+        android:icon="@drawable/bedtime_24"
+        android:title="@string/action_naptime"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+</menu>
